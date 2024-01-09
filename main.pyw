@@ -1,3 +1,4 @@
+# all static files (images) must be on the same path as main.pyw for proper working
 # importing modules
 import tkinter
 import random
