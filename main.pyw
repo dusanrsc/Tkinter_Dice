@@ -39,22 +39,22 @@ root.title(TITLE)
 root.resizable(False, False)
 
 # importing images of dices
-imgd1 = Image.open("1.png")
+imgd1 = Image.open("static/1.png")
 img1 = ImageTk.PhotoImage(imgd1)
 
-imgd2 = Image.open("2.png")
+imgd2 = Image.open("static/2.png")
 img2 = ImageTk.PhotoImage(imgd2)
 
-imgd3 = Image.open("3.png")
+imgd3 = Image.open("static/3.png")
 img3 = ImageTk.PhotoImage(imgd3)
 
-imgd4 = Image.open("4.png")
+imgd4 = Image.open("static/4.png")
 img4 = ImageTk.PhotoImage(imgd4)
 
-imgd5 = Image.open("5.png")
+imgd5 = Image.open("static/5.png")
 img5 = ImageTk.PhotoImage(imgd5)
 
-imgd6 = Image.open("6.png")
+imgd6 = Image.open("static/6.png")
 img6 = ImageTk.PhotoImage(imgd6)
 
 # creating dice button
