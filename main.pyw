@@ -1,4 +1,3 @@
-# all static files (images) must be on the same path as main.pyw for proper working
 # importing modules
 import tkinter
 import random
@@ -11,8 +10,11 @@ from PIL import Image, ImageTk
 # app logic
 # rolling function
 def roll_dice():
+	# variables
+	# picking random number
 	roll = random.randint(0, 5)
 
+	# app conditions
 	if roll == 0:
 		dice.config(image=img1)
 	elif roll == 1:
@@ -35,7 +37,7 @@ TITLE = str("Dice")
 # creating main window
 # settings for main window
 root = Tk()
-root.title(TITLE)
+root.title(f"{TITLE}")
 root.resizable(False, False)
 
 # importing images of dices
